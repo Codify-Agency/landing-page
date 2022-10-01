@@ -1,0 +1,13 @@
+.footer {
+  &__social-list {
+    i {
+      font-size: 2rem;
+      transition: all 200ms ease-in-out;
+
+      &:hover {
+        opacity: .8;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
