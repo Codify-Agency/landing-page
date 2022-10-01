@@ -3,7 +3,17 @@
   --fw-bold: 500;
   --fw-black: 600;
 }
+
 body {
   font-family: Montserrat, sans-serif;
   font-size: 16px;
+  font-weight: var(--fw-normal);
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: var(--fw-black);
+}
+
+b, strong {
+  font-weight: var(--fw-bold);
 }

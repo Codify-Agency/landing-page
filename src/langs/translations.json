@@ -1,8 +1,26 @@
 {
   "en": {
-    "hero_title": "Do you need to start selling online?"    
+    "home": "Home",
+    "development": "Development",
+    "hosting": "Hosting",
+    "servers": "Servers",
+    "lets_talk": "Let's Talk",
+    "hero_title": "Sell online? Yes!",
+    "hero_text_1": "We create your online store in a few days and without charging sales commissions, the money goes directly to your accounts.",
+    "hero_text_2": "We are the most effective and economical online solution to sell your products or services over the Internet.",
+    "wordpress_experts": "WordPress\u00ae Experts",
+    "we_wordpress_experts": "We are WordPress\u00ae Experts"
   },
   "es": {
-    "hero_title": "Necesitas empezar a vender en l\u00ednea?"    
+    "home": "Inicio",
+    "development": "Desarrollo",
+    "hosting": "Hosting",
+    "servers": "Servidores",
+    "lets_talk": "Hablemos",
+    "hero_title": "¿Vender en l\u00ednea? ¡S\u00ed!",
+    "hero_text_1": "Creamos su tienda en l\u00ednea en pocos d\u00edas y sin cobros de comisiones por ventas, el dinero va directo a sus cuentas.",
+    "hero_text_2": "Somos la soluci\u00f3n en l\u00ednea mas eficaz y econ\u00f3mica para vender sus productos o servicios por Internet.",
+    "wordpress_experts": "Expertos en WordPress\u00ae",
+    "we_wordpress_experts": "Somos Expertos en WordPress\u00ae"
   }
 }

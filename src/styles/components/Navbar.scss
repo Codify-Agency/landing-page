@@ -1,0 +1,25 @@
+.nav-bar {
+  .menu {
+    a {
+      color: #fff;
+      font-size: 1.2rem;
+      text-decoration: none;
+
+      &::after {
+        background-color: #fff;
+        content: '';
+        display: block;
+        height: 1px;
+        margin-top: .1rem;
+        transition: all 200ms ease-in-out;
+        width: 0;
+      }
+
+      &:hover {
+        &::after {
+          width: 100%
+        }
+      }
+    }
+  }
+}
