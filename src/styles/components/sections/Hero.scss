@@ -1,5 +1,5 @@
 .hero {
-  background-color: rgba($color: #000, $alpha: 0.3);
+  background-color: rgba($color: #000, $alpha: 0.4);
   min-height: 27rem;
   overflow-y: hidden;
 
@@ -9,7 +9,6 @@
 
   &__text {
     font-size: 1.2rem;
-    font-weight: var(--fw-bold);
     line-height: 1.4em;
     text-shadow: 0 0 5px #000;
   }
