@@ -4,10 +4,10 @@ import "../../styles/components/sections/Hero.scss"
 
 export default function HeroSection() {
   return (
-    <section className="hero pt-5 pb-5">
+    <section className="hero pt-5">
       <div className="container">
         <div className="row text-light">
-          <div className="col-12 col-md-6 align-self-start">
+          <div className="col-12 col-md-6 align-self-start pb-5">
             <h1 className="hero__title mb-4">
             { translate('hero_title') }
             </h1>
@@ -24,7 +24,7 @@ export default function HeroSection() {
               { translate('lets_talk') }
             </a>
           </div>
-          <div className="col-12 col-md-6 align-self-end text-end">
+          <div className="col-12 col-md-6 align-self-end pb-2 text-end">
             <h5><small>
               { translate('we_wordpress_experts') }
             </small></h5>

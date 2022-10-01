@@ -1,4 +1,6 @@
 .nav-bar {
+  display: none;
+
   .menu {
     a {
       color: #fff;
@@ -21,5 +23,9 @@
         }
       }
     }
+  }
+
+  @media (min-width: 992px) {
+    display: block;
   }
 }
