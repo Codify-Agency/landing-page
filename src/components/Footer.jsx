@@ -14,7 +14,7 @@ export default function Footer() {
               </piture>
               
               <p className="mt-3 pe-2">
-                Somos una agencia 100% digital que ofrece servicios de consultoría, desarrollo web-móvil y servidores dedicados de alta capacidad.
+                { translate('footer_about') }
               </p>
 
               <a href="#talk" className="btn btn-sm btn-light">
@@ -24,18 +24,20 @@ export default function Footer() {
             </div>
 
             <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-              <h4 className="mb-3">Our Services</h4>
+              <h4 className="mb-3">{ translate('our_services') }</h4>
 
               <ul className="ps-3">
-                <li>Web Development</li>
-                <li>Mobile Development</li>
-                <li>Web Design</li>
-                <li>SSD dedicated servers</li>
+                <li>{ translate('web_dev') }</li>
+                <li>{ translate('mobile_dev') }</li>
+                <li>{ translate('web_design') }</li>
+                <li>{ translate('ssd_servers') }</li>
               </ul>
             </div>
 
             <div className="col-12 col-md-6 col-lg-3">
-              <h4 className="mb-3">Stay tuned</h4>
+              <h4 className="mb-3">
+                { translate('stay_tuned') }
+              </h4>
 
               <ul className="list-unstyled p-0 d-flex gap-4 footer__social-list">
                 <li>
@@ -59,7 +61,7 @@ export default function Footer() {
 
               <p className="m-0">
                 <small>
-                  We also provide support through our social networks. Follow us.
+                  { translate('footer_social_support') }
                 </small>
               </p>
             </div>
