@@ -13,10 +13,6 @@ export default function Navbar() {
       href: '#dev'
     },
     {
-      label: translate('hosting'),
-      href: '#hosting'
-    },
-    {
       label: translate('servers'),
       href: '#servers'
     },
