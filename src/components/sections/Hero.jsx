@@ -20,6 +20,7 @@ export default function HeroSection() {
             </p>
 
             <a href="#talk" className="btn btn-light mt-4">
+              <i className="fab fa-whatsapp me-1"></i>
               { translate('lets_talk') }
             </a>
           </div>
