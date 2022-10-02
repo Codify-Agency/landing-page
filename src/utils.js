@@ -1,6 +1,15 @@
 import * as translations from './langs/translations.json'
 
+export const loadLang = () => {
+  const langStoraged = localStorage.getItem('lang');
+  if ( !langStoraged ) localStorage.setItem('lang', 'es');
+}
+
 export const translate = ( key ) => {
-  const lang = 'en' // get from state or localStorage
+  const lang = localStorage.getItem('lang');
   return translations[lang][key]
+}
+
+export const changeLang = ( lang ) => {
+  localStorage.setItem('lang', lang);
 }
