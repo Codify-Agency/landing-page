@@ -1,31 +1,106 @@
 .nav-bar {
-  display: none;
+  .burger {
+    cursor: pointer;
+    margin: 0 0 0 auto;
+    width: 40px;
+
+    span {
+      background-color: #fff;
+      display: block;
+      height: .2rem;
+      margin-bottom: .4rem;
+      width: 100%;
+    }
+  }
+
+  .close-menu {
+    color: #fff;
+    content: '\02715';
+    font-size: 2rem;
+    position: absolute;
+    transition: all 300ms ease-in-out;
+    opacity: 0;
+    right: 0;
+    top: 1.5rem;
+    z-index: 9;
+
+    &.show {
+      opacity: 1;
+      right: 60%;
+    }
+  }
 
   .menu {
-    a {
-      color: #fff;
-      font-size: 1.2rem;
-      text-decoration: none;
+    background-color: rgba($color: #000000, $alpha: 0.9);
+    bottom: 0;
+    padding: 2rem !important;
+    position: fixed;
+    transition: all 300ms ease-in-out;
+    top: 0;
+    right: -70%;
+    width: 70%;
 
-      &::after {
-        background-color: #fff;
-        content: '';
+    &.show {
+      right: 0;
+    }
+
+    li {
+      text-align: right;
+
+      a {
+        color: #fff;
         display: block;
-        height: 1px;
-        margin-top: .1rem;
-        transition: all 200ms ease-in-out;
-        width: 0;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        transition: all 300ms ease-in-out;
       }
 
-      &:hover {
-        &::after {
-          width: 100%
+      &:last-child {
+        a {
+          margin-bottom: 0;
         }
       }
     }
   }
 
   @media (min-width: 768px) {
-    display: block;
+    .burger {
+      display: none;
+    }
+
+    .close-menu {
+      display: none;
+    }
+
+    .menu {
+      background-color: transparent;
+      padding: initial !important;
+      position: relative;
+      right: 0;
+      width: 100%;
+
+      li {
+        a {
+          margin-bottom: 0;
+
+          &::after {
+            background-color: #fff;
+            content: '';
+            display: block;
+            height: 1px;
+            margin-top: .1rem;
+            transition: all 200ms ease-in-out;
+            width: 0;
+          }
+    
+          &:hover {
+            &::after {
+              width: 100%
+            }
+          }
+        }
+      }
+    }
   }
 }
