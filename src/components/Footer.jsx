@@ -41,19 +41,19 @@ export default function Footer() {
 
               <ul className="list-unstyled p-0 d-flex gap-4 footer__social-list">
                 <li>
-                  <a href="https://facebook.com" target="_blank" rel="noopener" className="text-light">
+                  <a href="https://www.linkedin.com/company/codify-agency" target="_blank" rel="noopener" className="text-light">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="https://www.facebook.com/codify.agency" target="_blank" rel="noopener" className="text-light">
                     <i className="fab fa-facebook"></i>
                   </a>
                 </li>
 
                 <li>
-                  <a href="https://facebook.com" target="_blank" rel="noopener" className="text-light">
-                    <i className="fab fa-linkedin"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://facebook.com" target="_blank" rel="noopener" className="text-light">
+                  <a href="https://github.com/Codify-Agency" target="_blank" rel="noopener" className="text-light">
                     <i className="fab fa-github"></i>
                   </a>
                 </li>
