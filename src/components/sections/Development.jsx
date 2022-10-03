@@ -22,9 +22,9 @@ export default function DevelopmentSection() {
 
         <ul className="development__featured row justify-content-evenly mt-5 mb-5 pt-4">
           <li className="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0 text-center text-md-start">
-            <picture className="d-block mb-4">
+            <figure className="d-block mb-4">
               <img src={iconWeb} alt="web design" height={100} />
-            </picture>
+            </figure>
 
             <h5>{ translate('dev_webs_title') }</h5>
 
@@ -32,9 +32,9 @@ export default function DevelopmentSection() {
           </li>
 
           <li className="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0 text-center text-md-start">
-            <picture className="d-block mb-4">
+            <figure className="d-block mb-4">
               <img src={iconShopping} alt="web design" height={100} />
-            </picture>
+            </figure>
 
             <h5>{ translate('dev_stores_title') }</h5>
             
@@ -42,9 +42,9 @@ export default function DevelopmentSection() {
           </li>
 
           <li className="col-12 col-md-6 col-lg-3 text-center text-md-start">
-            <picture className="d-block mb-4">
+            <figure className="d-block mb-4">
               <img src={iconRealState} alt="web real state" height={100} />
-            </picture>
+            </figure>
 
             <h5>{ translate('dev_real_state_title') }</h5>
             

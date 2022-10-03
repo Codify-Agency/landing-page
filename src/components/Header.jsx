@@ -10,9 +10,9 @@ export default function Header() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-9 col-md-4">
-              <picture>
+              <figure>
                 <img src="/logo-white.webp" alt="Codify" height={55} />
-              </picture>
+              </figure>
             </div>
             <div className="col-3 col-md-8">
               <Navbar />

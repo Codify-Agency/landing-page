@@ -9,9 +9,9 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-6 mb-5 mb-lg-0">
-              <piture className="logo">
+              <figure className="logo">
                 <img src="/logo-white.webp" alt="Codify" height={50} />
-              </piture>
+              </figure>
               
               <p className="mt-3 pe-2">
                 { translate('footer_about') }

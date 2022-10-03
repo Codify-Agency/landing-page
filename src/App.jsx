@@ -1,4 +1,5 @@
-import { loadLang } from "./utils"
+import { useEffect } from "react"
+import { loadLang, getLang } from "./utils"
 
 import Header from "./components/Header"
 import Footer from "./components/Footer"

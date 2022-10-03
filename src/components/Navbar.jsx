@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import { translate } from '../utils'
+import { translate, changeLang, getLang } from '../utils'
 
 import "../styles/components/Navbar.scss"
 
 export default function Navbar() {
   const [ showMenu, setShowMenu ] = useState(false);
+
   const links = [
     {
       label: translate('home'),
@@ -23,6 +24,8 @@ export default function Navbar() {
       href: '#talk'
     }
   ]
+
+  const lang = getLang()
 
   return (
     <nav className="nav-bar">
@@ -47,6 +50,15 @@ export default function Navbar() {
             </a>
           </li>
         )) }
+
+        <li>
+          <button
+            className="btn btn-sm btn-outline-light"
+            onClick={() => changeLang(lang === 'es' ? 'en' : 'es')}
+          >
+            { lang }
+          </button>
+        </li>
       </ul>
     </nav>
   )

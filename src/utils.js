@@ -13,3 +13,7 @@ export const translate = ( key ) => {
 export const changeLang = ( lang ) => {
   localStorage.setItem('lang', lang);
 }
+
+export const getLang = () => {
+  return localStorage.getItem('lang');
+}

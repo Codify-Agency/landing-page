@@ -1,6 +1,11 @@
 .btn-calendly {
+  background-color: rgba($color: #fff, $alpha: 0.9) !important;
   bottom: 1.5rem;
   position: fixed;
   right: 1.5rem;
   z-index: 9;
+
+  &:hover {
+    background-color: var(--bs-dark) !important;
+  }
 }
