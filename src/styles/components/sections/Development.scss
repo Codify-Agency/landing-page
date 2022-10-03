@@ -1,0 +1,12 @@
+.development {
+  &__head {
+    width: 100%;
+  }
+
+  @media (min-width: 992px) {
+    &__head {
+      margin: 0 auto;
+      width: 70%;
+    }
+  }
+}
