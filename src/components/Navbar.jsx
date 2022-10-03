@@ -1,10 +1,15 @@
 import { useState } from 'react'
-import { translate, changeLang, getLang } from '../utils'
+import { useDispatch, useSelector } from 'react-redux';
+import { changeLangAction } from '../../redux/slices/langSlice';
+import { translate } from '../utils'
 
 import "../styles/components/Navbar.scss"
 
 export default function Navbar() {
-  const [ showMenu, setShowMenu ] = useState(false);
+  const [ showMenu, setShowMenu ] = useState(false)
+
+  const lang = useSelector((state) => state.lang.lang)
+  const dispatch = useDispatch()
 
   const links = [
     {
@@ -25,7 +30,9 @@ export default function Navbar() {
     }
   ]
 
-  const lang = getLang()
+  const changeLang = ( newLang ) => {
+    dispatch(changeLangAction(newLang))
+  }
 
   return (
     <nav className="nav-bar">
@@ -53,10 +60,10 @@ export default function Navbar() {
 
         <li>
           <button
-            className="btn btn-sm btn-outline-light"
+            className="btn btn-sm btn-outline-light text-uppercase"
             onClick={() => changeLang(lang === 'es' ? 'en' : 'es')}
           >
-            { lang }
+            { lang === 'es' ? 'en' : 'es' }
           </button>
         </li>
       </ul>
