@@ -19,7 +19,7 @@ export default function HeroSection() {
               { translate('hero_text_2') }
             </p>
 
-            <a href="#talk" className="btn btn-light mt-4">
+            <a href="https://wa.me/573008291060" className="btn btn-light mt-4" target="_blank" rel="noopener">
               <i className="fab fa-whatsapp me-1"></i>
               { translate('lets_talk') }
             </a>

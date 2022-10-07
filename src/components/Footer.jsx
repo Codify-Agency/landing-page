@@ -17,7 +17,7 @@ export default function Footer() {
                 { translate('footer_about') }
               </p>
 
-              <a href="#talk" className="btn btn-sm btn-light">
+              <a href="https://wa.me/573008291060" className="btn btn-sm btn-light" target="_blank" rel="noopener">
                 <i className="fab fa-whatsapp me-1"></i>
                 { translate('lets_talk') }
               </a>
