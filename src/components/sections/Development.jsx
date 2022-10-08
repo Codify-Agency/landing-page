@@ -4,7 +4,7 @@ import "../../styles/components/sections/Development.scss"
 
 import iconWeb from "../../assets/icon-web-design.png"
 import iconShopping from "../../assets/icon-shopping.png"
-import iconRealState from "../../assets/icon-real-state.png"
+import iconMobile from "../../assets/app-development.png"
 
 export default function DevelopmentSection() {
   return (
@@ -43,12 +43,12 @@ export default function DevelopmentSection() {
 
           <li className="col-12 col-md-6 col-lg-3 text-center text-md-start">
             <figure className="d-block mb-4">
-              <img src={iconRealState} alt="web real state" height={100} />
+              <img src={iconMobile} alt="web real state" height={100} />
             </figure>
 
-            <h5>{ translate('dev_real_state_title') }</h5>
+            <h5>{ translate('dev_mobile_title') }</h5>
             
-            <p>{ translate('dev_real_state_text') }</p>
+            <p>{ translate('dev_mobile_text') }</p>
           </li>
         </ul>
 

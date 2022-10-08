@@ -23,12 +23,12 @@
     "footer_social_support": "We also provide support through our social networks. Follow us.",
     "dev_head_title": "We develop custom",
     "dev_head_text": "Designs and/or complex processes are not always required to bring our ideas to the internet, which is why we plan a development tailored to your idea and/or budget and thus create an incredible solution for your company and clients.",
-    "dev_webs_title": "Corporate websites",
+    "dev_webs_title": "Websites & Blogs",
     "dev_webs_text": "Manageable website that allows you to update any text or image on your website without the need to know how to program.",
     "dev_stores_title": "Online stores",
     "dev_stores_text": "Online store on its own server built with Woocommerce\u00ae or if you prefer services such as Shopify\u00ae.",
-    "dev_real_state_title": "Real Estate websites",
-    "dev_real_state_text": "Thanks to the advantages of using WordPress\u00ae, we can build your property sales website in ~15 days.",
+    "dev_mobile_title": "Apps Development",
+    "dev_mobile_text": "We develop your mobile application for iOS\u00ae and Android\u00ae maintaining the same design between platforms.",
     "dev_last_text": "And more, let's talk today and start building that great idea together."
   },
   "es": {
@@ -55,12 +55,12 @@
     "footer_social_support": "Tambi\u00e9n brindamos apoyo a trav\u00e9s de nuestras redes sociales. S\u00edguenos.",
     "dev_head_title": "Desarrollamos a la medida",
     "dev_head_text": "No siempre se requieren de diseños y/o procesos complejos para llevar nuestras ideas a internet, es por ello que planificamos un desarrollo a la medida de su idea y/o prespuesto y asi crear una soluci\u00f3n incre\u00edble para su empresa y clientes.",
-    "dev_webs_title": "Webs corporativas",
+    "dev_webs_title": "Sitios webs & Blogs",
     "dev_webs_text": "Sitio web administrable que le permite actualizar sin necesidad de saber programar, cualquier texto o imagen de su sitio web.",
     "dev_stores_title": "Tiendas en l\u00ednea",
     "dev_stores_text": "Tienda en l\u00ednea en servidor propio construida con Woocommerce\u00ae o si prefiere en servicios como Shopify\u00ae.",
-    "dev_real_state_title": "Webs de inmobiliarias",
-    "dev_real_state_text": "Gracias a la ventajas de usar WordPress\u00ae, podremos construir su web de venta de propiedades en ~15 d\u00edas.",
+    "dev_mobile_title": "Desarrollo de Apps",
+    "dev_mobile_text": "Desarrollamos su aplicación móvil para iOS\u00ae y Android\u00ae manteniendo el mismo diseño entre plataformas.",
     "dev_last_text": "Y más, hablemos hoy e iniciemos juntos a construir esa gran idea."
   }
 }
